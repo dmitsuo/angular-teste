@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
 import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
 import { BemVindo2Component } from './bem-vindo2/bem-vindo2.component';
+import { FuncionarioCardComponent } from './funcionario-card/funcionario-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
     BemVindoComponent,
-    BemVindo2Component
+    BemVindo2Component,
+    FuncionarioCardComponent
   ],
   imports: [
     BrowserModule,
