@@ -9,15 +9,9 @@ export class AppComponent {
   title = 'angular-teste';
   nome = 'Whatever';
 
-  adicionar() {
-    console.log(`Adicionando ${this.nome}`);
+  adicionar(nome: string) {
+    this.nome = nome;
 
-    const numero = Math.round(Math.random() * 100);
-    this.nome = 'Whatever ' + numero;
   }
 
-  alterarNome(event: any) {
-    //console.log(event);
-    this.nome = event.target.value;
-  }
 }
