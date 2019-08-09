@@ -7,6 +7,7 @@ import { HelloComponent } from './hello/hello.component';
 import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
 import { BemVindo2Component } from './bem-vindo2/bem-vindo2.component';
 import { FuncionarioCardComponent } from './funcionario-card/funcionario-card.component';
+import { FuncionarioFormComponent } from './funcionario-form/funcionario-form.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FuncionarioCardComponent } from './funcionario-card/funcionario-card.co
     HelloComponent,
     BemVindoComponent,
     BemVindo2Component,
-    FuncionarioCardComponent
+    FuncionarioCardComponent,
+    FuncionarioFormComponent
   ],
   imports: [
     BrowserModule,
