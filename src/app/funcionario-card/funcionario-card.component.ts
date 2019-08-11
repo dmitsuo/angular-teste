@@ -14,7 +14,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class FuncionarioCardComponent {
 
-  @Input('obj') funcionario: any;
+  @Input() funcionario: any;
 
   isAdmin() {
     return this.funcionario.nome.startsWith('D');
